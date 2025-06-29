@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.main-heading {
+  margin-top: 20px;
+  color: #333;
+}
+
+.counter-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.counter {
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.counter h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
