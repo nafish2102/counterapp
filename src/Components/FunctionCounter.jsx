@@ -13,8 +13,8 @@ function FunctionCounter() {
         <div className="counter">
             <h1>Funtion Component</h1>
             <h2>{count}</h2>
-            <button onClick={increment}>+</button>
             <button onClick={decrement}>-</button>
+            <button onClick={increment}>+</button>
         </div>
     )
 }

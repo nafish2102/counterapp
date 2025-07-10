@@ -19,8 +19,8 @@ class ClassCounter extends Component {
             <div className="counter">
                 <h1>Class Component</h1>
                 <h2>{this.state.count}</h2>
-                <button onClick={this.increment}>+</button>
                 <button onClick={this.decrement}>-</button>
+                <button onClick={this.increment}>+</button>
             </div>
         )
     }
